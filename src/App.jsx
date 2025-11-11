@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./App.css";
 import NoteManager from "../src/components/NoteManager";
 import NoteForm from "../src/components/NotForm";
+import "./App.css";
 
 export default function App() {
   const [notes, setNotes] = useState([]);
